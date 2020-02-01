@@ -1,6 +1,12 @@
 /** @format */
 
+// Require dotenv for read .env
+require('dotenv').config();
+
 module.exports = (app, express, io, cors) => {
+	// Configurando pueto
+	app.set('PORT', process.env.PORT || process.env.LOCAL_PORT);
+
 	// Socket js configuration
 	require(`${__dirname}/socket`)(io);
 

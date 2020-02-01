@@ -11,5 +11,4 @@ function App(req, res) {
 }
 
 const nameApp = App;
-
 exports.app = nameApp;

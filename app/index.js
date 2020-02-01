@@ -8,6 +8,7 @@ const express = require('express');
 const cors = require('cors');
 const http = require('http');
 const socketio = require('socket.io');
+const ngrok = require('ngrok');
 
 // Init Libraries
 const app = express();
@@ -23,9 +24,7 @@ require(`${__dirname}/config/middlewares`)(app, io);
 // Routes configuration
 require(`${__dirname}/config/routes`)(app);
 
-server.listen(process.env.PORT, () => {
-	console.log(`Service up in the port ${process.env.PORT}`);
-	console.log('Press Ctrl+C to quit.');
-});
+// Listeng configuration
+require(`${__dirname}/config/listen`)(server, app, ngrok);
 
-// module.exports = app;
+module.exports = app;
