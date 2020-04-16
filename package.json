@@ -7,7 +7,7 @@
 		"start": "cross-env LISTENG_TYPE=normal node app",
 		"dev": "cross-env LISTENG_TYPE=normal nodemon app",
 		"public": "cross-env LISTENG_TYPE=public IP=127.0.0.1  node app",
-		"function": "node function"
+		"function": "node ./"
 	},
 	"repository": {
 		"type": "git",
