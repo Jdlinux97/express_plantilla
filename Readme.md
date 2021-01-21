@@ -62,7 +62,7 @@ $ docker-compose up
 [2.1]: https://i.imgur.com/A21PSOX.png 'linkedin icon with padding'
 [3.1]: https://i.imgur.com/FTfZyuk.png 'Instagram  icon with padding'
 [4.1]: http://i.imgur.com/0o48UoR.png 'github icon with padding'
-[1]: https://twitter.com/Jdlinux97
+[1]: https://twitter.com/dimasdevelop
 [2]: https://www.linkedin.com/in/dimas-gonzalez/
 [3]: https://www.instagram.com/jdlinux/?hl=en
 [4]: https://github.com/dimasdevelop
