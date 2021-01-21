@@ -65,7 +65,7 @@ $ docker-compose up
 [1]: https://twitter.com/Jdlinux97
 [2]: https://www.linkedin.com/in/dimas-gonzalez/
 [3]: https://www.instagram.com/jdlinux/?hl=en
-[4]: https://github.com/Jdlinux97
+[4]: https://github.com/dimasdevelop
 
 ## License
 
